@@ -25,32 +25,32 @@
     self.productArray = @[
                                @{
                                    @"product":@[
-                                           @"com.xinpu.gamebuy.jinbi1",
-                                           @"com.xinpu.gamebuy.jinbi2"
+                                           @"com.xxx.xxx.jinbi1",
+                                           @"com.xxx.xxx.jinbi2"
                                            ],
                                    @"header":@"conn - 消耗性购买"
                                  },
                                @{
                                    @"product":@[
-                                           @"com.xinpu.gamebuy.noncon1"
+                                           @"com.xxx.xxx.noncon1"
                                            ],
                                    @"header":@"noncon - 一次性购买"
                                    },
                                @{
                                    @"product":@[
-                                           @"com.xinpu.gamebuy.autorenew1"
+                                           @"com.xxx.xxx.autorenew1"
                                            ],
                                    @"header":@"autorenew - 自动续订"
                                    },
                                @{
                                    @"product":@[
-                                           @"com.xinpu.gamebuy.freesub1"
+                                           @"com.xxx.xxx.freesub1"
                                            ],
                                    @"header":@"freesub - 免费订阅"
                                    },
                                @{
                                    @"product":@[
-                                           @"com.xinpu.gamebuy.nonrenew1"
+                                           @"com.xxx.xxx.nonrenew1"
                                            ],
                                    @"header":@"nonrenew - 非自动续订"
                                  }];

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D3E0FD6A-BDEA-42A4-A674-2F785D0CE76D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GameBuyDev</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7A2A16DCD0FBB7401731CF3329CA1C81A1DA0224</key>
+		<string>github.com:yutiya/XSStore.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GameBuyDev.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7A2A16DCD0FBB7401731CF3329CA1C81A1DA0224</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:yutiya/XSStore.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7A2A16DCD0FBB7401731CF3329CA1C81A1DA0224</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7A2A16DCD0FBB7401731CF3329CA1C81A1DA0224</string>
+			<key>IDESourceControlWCCName</key>
+			<string>XSStore-master</string>
+		</dict>
+	</array>
+</dict>
+</plist>
