@@ -12,13 +12,13 @@
 >GameBuyDev
         XSIAP（iOS内购模块所需的所有代码，使用了第三方的网络检测 @nsdictionary）
 
-1.  导入系统框架库StoreKit、SystemConfiguration
-2.  导入 #import "XSStore.h"
-3.  购买前调用接口，确认可以支付
+*       导入系统框架库StoreKit、SystemConfiguration
+*       导入 #import "XSStore.h"
+*       购买前调用接口，确认可以支付
 ```
         [XSStore canPayProduct];
 ```
-4.  调用购买接口，传递IAP中设置的商品ID，请设置iTunes Connect的IAP
+*       调用购买接口，传递IAP中设置的商品ID，请设置iTunes Connect的IAP
     成功和失败结果均采用代码块方式进行回调，回调均在主线程中执行，调用者只需要关注
     逻辑处理和UI交互即可，失败代码块中会传递错误代码，在注释中均有提示
 ```
