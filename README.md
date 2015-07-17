@@ -19,7 +19,7 @@
         [XSStore canPayProduct];
 ```
 *       调用购买接口，传递IAP中设置的商品ID，请设置iTunes Connect的IAP
-    成功和失败结果均采用代码块方式进行回调，回调均在主线程中执行，调用者只需要关注
+    成功和失败 结果均使用 **block** 回调，回调均在主线程中执行，开发者只需要关注
     逻辑处理和UI交互即可，失败代码块中会传递错误代码，在注释中均有提示
 ```
         [[XSStore shardXSStore] payProduct:product withSuccess:^{
@@ -31,9 +31,9 @@
 
 ------
 
-### **注意**：（重要）
-- > 请添加系统框架StoreKit、SystemConfiguration
-- >	仅支持消耗性商品的购买（其余商品尚未开发测试）
+### 注意：（重要）
+- >     请添加系统框架StoreKit、SystemConfiguration
+- >     支持所有类型商品购买，请在iTunes Connect中配置商品ID
 - >	请使用沙盒测试用户进行测试，上面已写出
 - >	测试前，请在真机的App store中退出已登录的账户，否则会一直出现购买失败
 
